@@ -69,7 +69,7 @@ Notable visualizations include:
 4. - **Energy Percentage Gauge:** A gauge visualization indicates the average energy percentage of the songs in the dataset.
 5. - **Tracks by Release Date Line Chart:** Depicts the count of tracks released over time, allowing for a temporal analysis of song releases.
 6. - **Day of the Week vs. Month Matrix:** A matrix view presents a grid of days of the week against months, showing the count of tracks for each combination.
-7. - **Album Art Display:** Utilizes a downloaded custom visual named [HTML content link]("https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview") to showcase album art for a more visually appealing representation of the data.
+7. - **Album Art Display:** Utilizes a downloaded custom visual named [HTML content(https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
 
 ## 🪑 **DAX Codes**
 In the Power BI file, various DAX (Data Analysis Expressions) calculations were employed. A few snippets include:
