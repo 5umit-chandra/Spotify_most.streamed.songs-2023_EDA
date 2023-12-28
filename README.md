@@ -1,4 +1,4 @@
-# 🟢🎵**Spotify Most Streamed Songs Analysis**🎵🟢
+# 🟢🎵**Most Streamed Songs On Spotify 2023 Analysis**🎵🟢
 
 ## 📝 **Overview**
 This repository contains a comprehensive analysis of the "Most Streamed Spotify Songs 2023" dataset.
@@ -7,7 +7,7 @@ The analysis is performed using both Python and Power BI, providing valuable ins
 
 ## 🧠 **Analysis Approach**
 
-### 🧹 Data Cleaning and Wrangling
+### Data Cleaning and Wrangling 🧹
 The first step involved cleaning and wrangling the raw dataset to prepare it for analysis. 
 
 The Jupyter notebook [Data_Cleaning_&_Wrangling.ipynb](Data_Cleaning_&_Wrangling.ipynb) details the process, addressing issues such as character encoding, column selection, and data transformation.
@@ -18,7 +18,7 @@ A key challenge was handling character encoding discrepancies, which required a 
 The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, "album_art_url," to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the Spotipy library,a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
 > This step contributes to enhancing the dataset with visual elements for potential future visualization or user interface improvements.
 
-### 🗝️ Key points include:
+### Key points include 🗝️
 
 1. **Spotify API Credentials:**
 Obtain API credentials from the Spotify Developer Dashboard.
@@ -58,6 +58,7 @@ df.to_csv(output_file, index=False)
 ## 📊 **Power BI Visualizations**
 
 The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the cleaned dataset. 
+
 ![Power BI Visualizations Screenshort](background/Screenshot.png)
 
 Notable visualizations include:
@@ -86,12 +87,15 @@ Top_Song_vs_Average = SUM('Table'[Top_Song_Streams]) - [Average_Streams_Per_Year
 ```
 
 ## 🎯 **Challenges Faced**
-The character encoding issues posed a notable challenge during data cleaning, necessitating a careful approach to ensure the integrity of the dataset. Additionally, incorporating album art URLs required overcoming difficulties in extracting this information from the Spotify API using Spotipy.
+The character encoding issues posed a notable challenge during data cleaning, necessitating a careful approach to ensure the integrity of the dataset.
+
+Additionally, incorporating album art URLs required overcoming difficulties in extracting this information from the Spotify API using Spotipy.
 
 ## ℹ️ **Dataset Source**
-The initial raw dataset is downloaded in CSV format from [Kaggle.com](https://www.kaggle.com/). The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
+The initial raw dataset is downloaded in CSV format from **[Kaggle.com](https://www.kaggle.com/)**. The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
 
 > [!NOTE]
-> 💁🏻‍♂️ **Somethig Extra**
+> 💁🏻‍♂️ **Somethig Extra:**
 >This readme.md provides a comprehensive overview of the Spotify Songs Analysis project, covering data cleaning, Power BI visualizations, and challenges faced. 
+>
 >The structure is clear and follows McKinsey's Pyramid Principle, presenting high-level information first.
