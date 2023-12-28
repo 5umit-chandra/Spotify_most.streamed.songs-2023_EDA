@@ -1,15 +1,18 @@
-# Spotify Songs Analysis
+# 🟢🎵**Spotify Most Streamed Songs Analysis**🎵🟢
 
-## Overview
+## 📝 Overview
 This repository contains a comprehensive analysis of the "Most Streamed Spotify Songs 2023" dataset.
+
 The analysis is performed using both Python and Power BI, providing valuable insights into the dynamics of popular songs on Spotify in 2023.
 
-## Analysis Approach
+## 🧠 Analysis Approach
 
-### Data Cleaning and Wrangling
+### 🧹 Data Cleaning and Wrangling
 
 The first step involved cleaning and wrangling the raw dataset to prepare it for analysis. 
+
 The Jupyter notebook [Data_Cleaning_&_Wrangling.ipynb](Data_Cleaning_&_Wrangling.ipynb) details the process, addressing issues such as character encoding, column selection, and data transformation.
+
 A key challenge was handling character encoding discrepancies, which required a thorough approach to ensure data consistency.
 
 
@@ -55,7 +58,7 @@ df.to_csv(output_file, index=False)
 
 The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the cleaned dataset. 
 ![Power BI Visualizations Screenshort](background/Screenshot.png)
-<img src="background/Screenshot.png" width="840" height="200" allow="autoplay">
+
 Notable visualizations include:
 
 1. - **Stacked Bar Chart:** Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
