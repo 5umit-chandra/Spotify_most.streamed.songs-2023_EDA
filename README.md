@@ -53,7 +53,9 @@ df.to_csv(output_file, index=False)
 
 ## Power BI Visualizations
 
-The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the cleaned dataset. Notable visualizations include:
+The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the cleaned dataset. 
+![Power BI Visualizations Screenshort](background/Screenshot.png)
+Notable visualizations include:
 
 1. - **Stacked Bar Chart:** Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
 2. - **Average Streams per Year Card:** Utilizing a DAX calculation (Average_Streams_Per_Year), this card presents the average streams per year, offering insights into overall streaming trends.
