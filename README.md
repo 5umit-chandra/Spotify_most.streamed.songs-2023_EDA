@@ -94,8 +94,9 @@ Additionally, incorporating album art URLs required overcoming difficulties in e
 ## ℹ️ **Dataset Source**
 The initial raw dataset is downloaded in CSV format from **[Kaggle.com](https://www.kaggle.com/)**. The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
 
-> ## [!NOTE]
-> 💁🏻‍♂️ **Somethig Extra:**
->This readme.md provides a comprehensive overview of the Spotify Songs Analysis project, covering data cleaning, Power BI visualizations, and challenges faced. 
+
+## 💁🏻‍♂️ **Somethig Extra:**
+> [!NOTE]
+>*This readme.md provides a comprehensive overview of the project, covering data cleaning, Power BI visualizations, and challenges faced.*
 >
->The structure is clear and follows McKinsey's Pyramid Principle, presenting high-level information first.
+>*The structure is clear and follows McKinsey's Pyramid Principle, presenting high-level information first.*
