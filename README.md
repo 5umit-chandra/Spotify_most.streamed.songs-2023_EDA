@@ -95,7 +95,7 @@ Additionally, incorporating album art URLs required overcoming difficulties in e
 The initial raw dataset is downloaded in CSV format from **[Kaggle.com](https://www.kaggle.com/)**. The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
 
 
-## 💁🏻‍♂️ **Somethig Extra:**
+## 💁🏻‍♂️ **Something Extra**
 > [!NOTE]
 >*This readme.md provides a comprehensive overview of the project, covering data cleaning, Power BI visualizations, and challenges faced.*
 >
