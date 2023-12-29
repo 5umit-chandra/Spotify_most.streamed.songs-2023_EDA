@@ -63,13 +63,20 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 
 Notable visualizations include:
 
-1. - **Stacked Bar Chart:** Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
-2. - **Average Streams per Year Card:** Utilizing a DAX calculation (Average_Streams_Per_Year), this card presents the average streams per year, offering insights into overall streaming trends.
-3. - **Top Song vs. Average Card:** Another DAX-driven card (Top_Song_vs_Average) compares the top song's streams against the average, providing context for a song's popularity.
-4. - **Energy Percentage Gauge:** A gauge visualization indicates the average energy percentage of the songs in the dataset.
-5. - **Tracks by Release Date Line Chart:** Depicts the count of tracks released over time, allowing for a temporal analysis of song releases.
-6. - **Day of the Week vs. Month Matrix:** A matrix view presents a grid of days of the week against months, showing the count of tracks for each combination.
-7. - **Album Art Display:** Utilizes a downloaded custom visual named [HTML content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
+1. **Stacked Bar Chart:**
+   - Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
+2. **Average Streams per Year Card:**
+   - Utilizing a DAX calculation (Average_Streams_Per_Year), this card presents the average streams per year, offering insights into overall streaming trends.
+3. **Top Song vs. Average Card:**
+   - Another DAX-driven card (Top_Song_vs_Average) compares the top song's streams against the average, providing context for a song's popularity.
+4. **Energy Percentage Gauge:**
+   - A gauge visualization indicates the average energy percentage of the songs in the dataset.
+5. **Tracks by Release Date Line Chart:**
+   - Depicts the count of tracks released over time, allowing for a temporal analysis of song releases.
+6. **Day of the Week vs. Month Matrix:**
+   - A matrix view presents a grid of days of the week against months, showing the count of tracks for each combination.
+7. **Album Art Display:**
+   - Utilizes a downloaded custom visual named [HTML content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
 
 ## 🪑 **DAX Codes**
 In the Power BI file, various DAX (Data Analysis Expressions) calculations were employed. A few snippets include:
@@ -95,8 +102,9 @@ Additionally, incorporating album art URLs required overcoming difficulties in e
 The initial raw dataset is downloaded in CSV format from **[Kaggle.com](https://www.kaggle.com/)**. The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
 
 
-## 💁🏻‍♂️ **Something Extra**
-> [!NOTE]
+##   
+> 💁🏻‍♂️**Something Extra**
+> 
 >*This readme.md provides a comprehensive overview of the project, covering data cleaning, Power BI visualizations, and challenges faced.*
 >
 >*The structure is clear and follows McKinsey's Pyramid Principle, presenting high-level information first.*
