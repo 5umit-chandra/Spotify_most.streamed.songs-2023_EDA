@@ -79,8 +79,8 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
    - Utilizes a downloaded custom visual named [HTML content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
 
 
-> ### Background Visualization
->*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
+> **_Background Visualization_**
+>*_The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience._*
 
 ## 🪑 **DAX Codes**
 In the Power BI file, various DAX (Data Analysis Expressions) calculations were employed. A few snippets include:
