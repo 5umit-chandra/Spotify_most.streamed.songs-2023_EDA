@@ -59,8 +59,6 @@ df.to_csv(output_file, index=False)
 
 The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the cleaned dataset. 
 
-<img src="background/Screenshot.png" width="100%" alt="Power BI Visualizations Screenshort" >
-
 ![Power BI Visualizations Screenshort](background/Screenshot.png)
 
 Notable visualizations include:
