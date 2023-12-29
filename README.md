@@ -27,32 +27,32 @@ Visit the [Spotify Developer Dashboard](https://developer.spotify.com/) to creat
 2. **Initialization:**
 Initialize Spotipy with Spotify API credentials.
 
-`Replace 'your_client_id' and 'your_client_secret' with your actual credentials`
+Replace `'<-paste_your_client_id_here->'` and `'<-paste_your_client_id_here->'` with your actual credentials
 
 ```
-client_credentials_manager = SpotifyClientCredentials(client_id='your_client_id', client_secret='your_client_secret')
+client_credentials_manager = SpotifyClientCredentials(client_id='<-paste_your_client_id_here->', client_secret='<-paste_your_client_id_here->')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 ```
 
 3. **Searching for Album Art:**
-A function, get_album_art, is defined to search for album art URLs based on the track name and artist.
+A function, `get_album_art`, is defined to search for album art URLs based on the track name and artist.
 
 ```
 results = sp.search(q=f'track:{track_name} artist:{artist_name}', type='track')
 Updating the DataFrame:
 ```
 4. **Updating the DataFrame:** 
-The script reads the cleaned dataset, iterates through each row, and applies the get_album_art function. The obtained album art URLs are then added to a new column, "album_art_url."
+The script reads the cleaned dataset, iterates through each row, and applies the `get_album_art` function. The obtained album art URLs are then added to a new column, `album_art_url`.
 
 ```
 df['album_art_url'] = df.apply(lambda row: get_album_art(row['track_name'], row['artist(s)_name']), axis=1)
 ```
 
 5. **Saving the Updated DataFrame:** 
-The final step involves saving the updated DataFrame to a new CSV file, ensuring that the "album_art_url" column is now a part of the dataset.
+The final step involves saving the updated DataFrame to a new CSV file [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv) , ensuring that the `album_art_url` column is now a part of the dataset.
 
 ```
-output_file = '_with_art.csv'
+output_file = 'updated-Art-spotify-2023.csv'
 df.to_csv(output_file, index=False)
 ```
 
@@ -84,7 +84,7 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 >*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
 
 ## 🪑 **DAX Codes**
-In the Power BI file, various DAX (Data Analysis Expressions) calculations were employed. A few snippets include:
+In the Power BI file, various DAX _(Data Analysis Expressions)_ calculations were employed. A few snippets include:
 
 - Average Streams per Year:
 
@@ -101,6 +101,8 @@ Additionally, incorporating album art URLs required overcoming difficulties in e
 ## ℹ️ **Dataset Source**
 The initial raw dataset is downloaded in CSV format from **[Kaggle.com](https://www.kaggle.com/)**. The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
 
+## 🤔 **Conclusion**
+This Power BI project provides a comprehensive analysis of the most streamed songs on Spotify in 2023, integrating data visualizations, data cleaning, and dynamic DAX measures. The inclusion of album art URLs adds an aesthetic dimension to the project
 
 ##   
 > 💁🏻‍♂️**Something Extra**
