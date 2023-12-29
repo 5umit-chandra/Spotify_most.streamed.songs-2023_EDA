@@ -27,9 +27,9 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 1. **Stacked Bar Chart:**
    - Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
 2. **Average Streams per Year Card:**
-   - Utilizing a DAX calculation (Average_Streams_Per_Year), this card presents the average streams per year, offering insights into overall streaming trends.
+   - Utilizing a DAX calculation `(Average_Streams_Per_Year)`, this card presents the average streams per year, offering insights into overall streaming trends.
 3. **Top Song vs. Average Card:**
-   - Another DAX-driven card (Top_Song_vs_Average) compares the top song's streams against the average, providing context for a song's popularity.
+   - Another DAX-driven card `(Top_Song_vs_Average)` compares the top song's streams against the average, providing context for a song's popularity.
 4. **Energy Percentage Gauge:**
    - A gauge visualization indicates the average energy percentage of the songs in the dataset.
 5. **Tracks by Release Date Line Chart:**
