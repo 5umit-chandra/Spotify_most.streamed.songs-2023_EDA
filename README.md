@@ -28,7 +28,7 @@ Visit the [Spotify Developer Dashboard](https://developer.spotify.com/) to creat
 Initialize Spotipy with Spotify API credentials.
 
 ```
-# Replace 'your_client_id' and 'your_client_secret' with your actual credentials
+`# Replace 'your_client_id' and 'your_client_secret' with your actual credentials`
 client_credentials_manager = SpotifyClientCredentials(client_id='your_client_id', client_secret='your_client_secret')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 ```
@@ -79,7 +79,7 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
    - Utilizes a downloaded custom visual named [HTML content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
 
 
-> **_Background Visualization_**
+> **_Background Visualization :_**
 >*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
 
 ## 🪑 **DAX Codes**
