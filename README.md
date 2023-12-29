@@ -59,9 +59,9 @@ df.to_csv(output_file, index=False)
 
 The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the [updated](updated-Art-spotify-2023.csv) dataset. 
 
-![Power BI Visualizations Screenshort](https://github.com/5umit-chandra/Spotify_most.streamed.songs-2023_EDA/assets/154830809/973cb072-df36-4a9f-b66c-091e17a975ba)
-
 ### Notable visualizations include: 
+
+![Power BI Visualizations Screenshort](https://github.com/5umit-chandra/Spotify_most.streamed.songs-2023_EDA/assets/154830809/973cb072-df36-4a9f-b66c-091e17a975ba)
 
 1. **Stacked Bar Chart:**
    - Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
