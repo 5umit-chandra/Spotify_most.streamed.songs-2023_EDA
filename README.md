@@ -14,6 +14,9 @@ The Jupyter notebook [Data_Cleaning_&_Wrangling.ipynb](Data_Cleaning_&_Wrangling
 
 A key challenge was handling character encoding discrepancies, which required a thorough approach to ensure data consistency.
 
+### **Album Art URL Extraction** 🖼️
+A Python script is employed to extract album art URLs using the Spotipy library. The URLs are added as a new column `album_art_url`, enhancing the project's visual appeal.
+
 ## 📊 **Power BI Visualizations**
 
 The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the [updated](updated-Art-spotify-2023.csv) dataset. 
@@ -36,7 +39,6 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
    - A matrix view presents a grid of days of the week against months, showing the count of tracks for each combination.
 7. **Album Art Display:**
    - Utilizes a downloaded custom visual named [HTML content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
-
 
 > **_Background Visualization :_**
 >*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
