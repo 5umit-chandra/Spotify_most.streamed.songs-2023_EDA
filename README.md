@@ -83,15 +83,10 @@ In the Power BI file, various DAX (Data Analysis Expressions) calculations were 
 
 - Average Streams per Year:
 
-```
-Average_Streams_Per_Year = AVERAGE('Table'[Streams])
-```
+`Average_Streams_Per_Year = AVERAGE('Table'[Streams])`
 - Top Song vs. Average:
 
-```
-Copy code
-Top_Song_vs_Average = SUM('Table'[Top_Song_Streams]) - [Average_Streams_Per_Year]
-```
+`Top_Song_vs_Average = SUM('Table'[Top_Song_Streams]) - [Average_Streams_Per_Year]`
 
 ## 🎯 **Challenges Faced**
 The character encoding issues posed a notable challenge during data cleaning, necessitating a careful approach to ensure the integrity of the dataset.
