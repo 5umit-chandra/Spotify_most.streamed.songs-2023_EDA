@@ -9,9 +9,7 @@ The analysis is performed using both Python and Power BI, providing valuable ins
 
 ### Data Cleaning and Wrangling 🧹
 - The first step involved cleaning and wrangling the raw dataset to prepare it for analysis. 
-
 - The Jupyter notebook [Data_Cleaning_&_Wrangling.ipynb](Data_Cleaning_&_Wrangling.ipynb) details the process, addressing issues such as character encoding, column selection, and data transformation.
-
 - A key challenge was handling character encoding discrepancies, which required a thorough approach to ensure data consistency.
 
 ### **Album Art URL Extraction** 🖼️
