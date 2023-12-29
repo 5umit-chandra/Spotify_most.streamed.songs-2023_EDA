@@ -61,7 +61,7 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 
 ![Power BI Visualizations Screenshort](https://github.com/5umit-chandra/Spotify_most.streamed.songs-2023_EDA/assets/154830809/973cb072-df36-4a9f-b66c-091e17a975ba)
 
-Notable visualizations include:
+### Notable visualizations include: 
 
 1. **Stacked Bar Chart:**
    - Displays the song tracks stacked by streams, providing a quick overview of the most streamed tracks.
