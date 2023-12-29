@@ -26,6 +26,7 @@ Visit the [Spotify Developer Dashboard](https://developer.spotify.com/) to creat
 
 2. **Initialization:**
 Initialize Spotipy with Spotify API credentials.
+
 `Replace 'your_client_id' and 'your_client_secret' with your actual credentials`
 
 ```
