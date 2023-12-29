@@ -1,4 +1,4 @@
-# 🟢🎵 ${\large\textsf{\textcolor{green}{Most Streamed Songs On Spotify 2023 Analysis}}}$ 🎵🟢
+# 🟢🎵 ${\large\textsf{\textcolor{green}{Most Streamed Songs On Spotify 2023 Analysis}}}$
 
 ## 📝 **Overview**
 This repository contains a comprehensive analysis of the "Most Streamed Spotify Songs 2023" dataset.
