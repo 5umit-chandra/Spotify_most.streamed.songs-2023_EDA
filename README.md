@@ -59,7 +59,7 @@ df.to_csv(output_file, index=False)
 
 The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcases a variety of visualizations derived from the cleaned dataset. 
 
-![Power BI Visualizations Screenshort](background/Screenshot.jpg)
+![Power BI Visualizations Screenshort](https://github.com/5umit-chandra/Spotify_most.streamed.songs-2023_EDA/assets/154830809/973cb072-df36-4a9f-b66c-091e17a975ba)
 
 Notable visualizations include:
 
