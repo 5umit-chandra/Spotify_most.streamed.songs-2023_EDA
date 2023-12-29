@@ -15,7 +15,7 @@ The Jupyter notebook [Data_Cleaning_&_Wrangling.ipynb](Data_Cleaning_&_Wrangling
 A key challenge was handling character encoding discrepancies, which required a thorough approach to ensure data consistency.
 
 ## 🐍 **Python Script: Adding Album Art URLs**
-The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, "album_art_url," to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the Spotipy library,a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
+The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`," to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the Spotipy library,a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
 > This step contributes to enhancing the dataset with visual elements for potential future visualization or user interface improvements.
 
 ### Key points include 🗝️
@@ -29,15 +29,30 @@ Initialize Spotipy with Spotify API credentials.
 
 Replace `'<-paste_your_client_id_here->'` and `'<-paste_your_client_id_here->'` with your actual credentials
 
+`client_credentials_manager = SpotifyClientCredentials(client_id='<-paste_your_client_id_here->', client_secret='<-paste_your_client_id_here->')`
+`sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)`
+
 3. **Searching for Album Art:**
 A function, `get_album_art`, is defined to search for album art URLs based on the track name and artist.
+
+
+>results = sp.search(q=f'track:{track_name} artist:{artist_name}', type='track')
+>Updating the DataFrame:
 
 4. **Updating the DataFrame:** 
 The script reads the cleaned dataset, iterates through each row, and applies the `get_album_art` function. The obtained album art URLs are then added to a new column, `album_art_url`.
 
+```
+df['album_art_url'] = df.apply(lambda row: get_album_art(row['track_name'], row['artist(s)_name']), axis=1)
+```
 
 5. **Saving the Updated DataFrame:** 
-The final step involves saving the updated DataFrame to a new CSV file [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv) , ensuring that the `album_art_url` column is now a part of the dataset.
+The final step involves saving the updated DataFrame to a new CSV file [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv), ensuring that the `album_art_url` column is now a part of the dataset.
+
+```
+output_file = '_with_art.csv'
+df.to_csv(output_file, index=False)
+```
 
 ## 📊 **Power BI Visualizations**
 
