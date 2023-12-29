@@ -80,7 +80,7 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 
 
 > **_Background Visualization_**
->*_The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience._*
+>*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
 
 ## 🪑 **DAX Codes**
 In the Power BI file, various DAX (Data Analysis Expressions) calculations were employed. A few snippets include:
