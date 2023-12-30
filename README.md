@@ -73,10 +73,8 @@ The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the ad
 Obtain API credentials from the Spotify Developer Dashboard.
 Visit the [Spotify Developer Dashboard](https://developer.spotify.com/) to create a new app and acquire the client ID and client secret.
 
-2. **Initialization:**
-Initialize Spotipy with Spotify API credentials.
+2. **Spotipy with Spotify API credentials:** Replace `'<-paste_your_client_id_here->'` and `'<-paste_your_client_id_here->'` with your actual credentials
 
-Replace `'<-paste_your_client_id_here->'` and `'<-paste_your_client_id_here->'` with your actual credentials
 ```
 client_credentials_manager = SpotifyClientCredentials(client_id='<-paste_your_client_id_here->', client_secret='<-paste_your_client_id_here->')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
