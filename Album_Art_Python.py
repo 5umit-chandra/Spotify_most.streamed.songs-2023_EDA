@@ -8,7 +8,7 @@ def get_album_art(track_name, artist_name):
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
     
     # Search for the track
-    print(f"Searching for album art for '{track_name}' by '{artist_name}'...")
+    print(f"Searching: '{track_name}' by '{artist_name}'")
     results = sp.search(q=f'track:{track_name} artist:{artist_name}', type='track')
     
     # Extract album art URL
