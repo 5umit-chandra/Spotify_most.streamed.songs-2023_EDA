@@ -13,7 +13,7 @@ The analysis is performed using both Python and Power BI, providing valuable ins
 - A key challenge was handling character encoding discrepancies, which required a thorough approach to ensure data consistency.
 
 ### **Album Art URL Extraction** 🖼️
-- Then a Python script is employed to extract album art URLs using the Spotipy library. 
+- Then a Python script [Album_Art_Python.py](Album_Art_Python.py) is employed to extract album art URLs using the Spotipy library. 
 - The URLs are added as a new column `album_art_url`, enhancing the project's visual appeal.
 
 ## 📊 **Power BI Visualizations**
