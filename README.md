@@ -46,10 +46,8 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 In the Power BI file, various DAX _(Data Analysis Expressions)_ calculations were employed. A few snippets include:
 
 - Average Streams per Year:
-
 `Average_Streams_Per_Year = AVERAGE('Table'[Streams])`
 - Top Song vs. Average:
-
 `Top_Song_vs_Average = SUM('Table'[Top_Song_Streams]) - [Average_Streams_Per_Year]`
 
 ## 🎯 **Challenges Faced**
