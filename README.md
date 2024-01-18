@@ -94,6 +94,8 @@ The final step involves saving the updated DataFrame to a new CSV file [updated-
 output_file = '_with_art.csv'
 df.to_csv(output_file, index=False)
 ```
+>[!NOTE]
+>More details can be found in (spotipy_example)[spotipy_example] folder. 
 
 ##   
 > 💁🏻‍♂️**Something Extra**
