@@ -97,11 +97,6 @@ df.to_csv(output_file, index=False)
 
 ##
 >[!NOTE]
->*For code and syntax examples of the Spotipy library, check out the 'spotipy_example' folder in this repository.*
-
-##   
-> 💁🏻‍♂️**Something Extra**
-> 
->*This readme.md provides a comprehensive overview of the project, covering data cleaning, Power BI visualizations, and challenges faced.*
+> 💁🏻‍♂️*Something Extra*
 >
->*The structure is clear and follows McKinsey's Pyramid Principle, presenting high-level information first.*
+>*For code and syntax examples of the Spotipy library, check out the `spotipy_example` folder in this repository.*
