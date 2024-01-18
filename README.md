@@ -94,8 +94,10 @@ The final step involves saving the updated DataFrame to a new CSV file [updated-
 output_file = '_with_art.csv'
 df.to_csv(output_file, index=False)
 ```
+
+##
 >[!NOTE]
->More details can be found in (spotipy_example)[spotipy_example] folder. 
+>*For code and syntax examples of the Spotipy library, check out the 'spotipy_example' folder in this repository.*
 
 ##   
 > 💁🏻‍♂️**Something Extra**
