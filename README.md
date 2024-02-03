@@ -99,4 +99,4 @@ df.to_csv(output_file, index=False)
 >[!NOTE]
 > 💁🏻‍♂️*Something Extra*
 >
->*For code and syntax examples of the Spotipy library, check out the `spotipy_example` folder in this repository.*
+>*For code and syntax examples of the Spotipy library, check out the [Official Github](https://github.com/spotipy-dev/spotipy/tree/2.22.1) or `spotipy_example` folder in this repository.*
