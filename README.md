@@ -43,7 +43,7 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
 >*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
 
 ## 🪑 **DAX Codes**
-In the Power BI file, various DAX _(Data Analysis Expressions)_ calculations were employed. A few snippets include:
+Various DAX _(Data Analysis Expressions)_ calculations were employed. A few snippets include:
 
 - Average Streams per Year:
 `Average_Streams_Per_Year = AVERAGE('Table'[Streams])`
@@ -56,7 +56,7 @@ The character encoding issues posed a notable challenge during data cleaning, ne
 Additionally, incorporating album art URLs required overcoming difficulties in extracting this information from the Spotify API using Spotipy.
 
 ## ℹ️ **Dataset Source**
-The initial raw dataset is downloaded in CSV format from **[Kaggle.com](https://www.kaggle.com/)**. The dataset is stored in the file [spotify-2023.csv](spotify-2023.csv).
+The initial raw dataset is downloaded from **[Kaggle.com](https://www.kaggle.com/)**, CSV file [spotify-2023.csv](spotify-2023.csv).
 
 ## 🤔 **Conclusion**
 This Power BI project provides a comprehensive analysis of the most streamed songs on Spotify in 2023, integrating data visualizations, data cleaning, and dynamic DAX measures. The inclusion of album art URLs adds an aesthetic dimension to the project
@@ -96,6 +96,4 @@ df.to_csv(output_file, index=False)
 
 ##
 >[!NOTE]
-> 💁🏻‍♂️*Something Extra*
->
->*For syntax explanations of the Spotipy library, refer to the [Official Github Repository](https://github.com/spotipy-dev/spotipy/tree/2.22.1) or the `spotipy_example` folder within this repository.*
+>💁🏻‍♂️ *For syntax explanations of the Spotipy library, refer to the [Official Github Repository](https://github.com/spotipy-dev/spotipy/tree/2.22.1) or the `spotipy_example` folder within this repository.*
