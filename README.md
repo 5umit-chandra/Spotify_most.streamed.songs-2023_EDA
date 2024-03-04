@@ -72,7 +72,6 @@ Obtain API credentials from the Spotify Developer Dashboard.
 Visit the [Spotify Developer Dashboard](https://developer.spotify.com/) to create a new app and acquire the client ID and client secret.
 
 2. **Spotipy with Spotify API credentials:** Replace `'<-paste_your_client_id_here->'` and `'<-paste_your_client_id_here->'` with your actual credentials
-
 ```
 client_credentials_manager = SpotifyClientCredentials(client_id='<-paste_your_client_id_here->', client_secret='<-paste_your_client_id_here->')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
@@ -91,7 +90,7 @@ df['album_art_url'] = df.apply(lambda row: get_album_art(row['track_name'], row[
 5. **Saving the Updated DataFrame:** 
 The final step involves saving the updated DataFrame to a new CSV file [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv), ensuring that the `album_art_url` column is now a part of the dataset.
 ```
-output_file = '_with_art.csv'
+output_file = 'updated-Art-spotify-2023.csv'
 df.to_csv(output_file, index=False)
 ```
 
@@ -99,4 +98,4 @@ df.to_csv(output_file, index=False)
 >[!NOTE]
 > 💁🏻‍♂️*Something Extra*
 >
->*For code and syntax examples of the Spotipy library, check out this [Official Github Repo](https://github.com/spotipy-dev/spotipy/tree/2.22.1) or `spotipy_example` folder in this repository.*
+>*For syntax explanations of the Spotipy library, refer to the [Official Github Repository](https://github.com/spotipy-dev/spotipy/tree/2.22.1) or the `spotipy_example` folder within this repository.*
