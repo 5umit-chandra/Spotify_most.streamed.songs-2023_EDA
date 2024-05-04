@@ -62,7 +62,7 @@ The dataset is downloaded from **[Kaggle.com](https://www.kaggle.com/)**, CSV fi
 This Power BI project provides a comprehensive analysis of the most streamed songs on Spotify in 2023, integrating data visualizations, data cleaning, and dynamic DAX measures. The inclusion of album art URLs adds an aesthetic dimension to the project
 
 ## 🐍 **Python Script: Adding Album Art URLs**
-The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`, to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the **[Spotipy library](https://github.com/spotipy-dev/spotipy)**,a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
+The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`, to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the **[Spotipy library](https://github.com/spotipy-dev/spotipy)**, a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
 > This step contributes to enhancing the dataset with visual elements for potential user interface improvements.
 
 ### Key points include 🗝️
