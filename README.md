@@ -56,14 +56,14 @@ The character encoding issues posed a notable challenge during data cleaning, ne
 Additionally, incorporating album art URLs required overcoming difficulties in extracting this information from the Spotify API using Spotipy.
 
 ## ℹ️ **Dataset Source**
-The initial raw dataset is downloaded from **[Kaggle.com](https://www.kaggle.com/)**, CSV file [spotify-2023.csv](spotify-2023.csv).
+The dataset is downloaded from **[Kaggle.com](https://www.kaggle.com/)**, CSV file [spotify-2023.csv](spotify-2023.csv).
 
 ## 🤔 **Conclusion**
 This Power BI project provides a comprehensive analysis of the most streamed songs on Spotify in 2023, integrating data visualizations, data cleaning, and dynamic DAX measures. The inclusion of album art URLs adds an aesthetic dimension to the project
 
 ## 🐍 **Python Script: Adding Album Art URLs**
-The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`," to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the Spotipy library,a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
-> This step contributes to enhancing the dataset with visual elements for potential future visualization or user interface improvements.
+The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`," to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the [Spotipy library](https://github.com/spotipy-dev/spotipy),a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
+> This step contributes to enhancing the dataset with visual elements for potential user interface improvements.
 
 ### Key points include 🗝️
 
@@ -96,4 +96,4 @@ df.to_csv(output_file, index=False)
 
 ##
 >[!NOTE]
->💁🏻‍♂️ *For syntax explanations of the Spotipy library, refer to the [Official Github Repository](https://github.com/spotipy-dev/spotipy/tree/2.22.1) or the `spotipy_example` folder within this repository.*
+>💁🏻‍♂️ *For syntax explanations of the Spotipy library, refer to the [Official Github Repository](https://github.com/spotipy-dev/spotipy) or the `spotipy_example` folder within this repository.*
