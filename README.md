@@ -40,7 +40,7 @@ The Power BI file [Main_Spotify_project.pbix](Main_Spotify_project.pbix) showcas
    - Utilizes a downloaded custom visual named [HTML content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) to showcase album art for a more visually appealing representation of the data.
 
 > **_Background Visualization :_**
->*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished and professional user experience.*
+>*The Power BI report's backdrop is crafted from the PowerPoint [BI_background.pptx](background/BI_background.pptx). This enhances the report's aesthetic appeal, ensuring a polished experience.*
 
 ## 🪑 **DAX Codes**
 Various DAX _(Data Analysis Expressions)_ calculations were employed. A few snippets include:
@@ -62,7 +62,7 @@ The dataset is downloaded from **[Kaggle.com](https://www.kaggle.com/)**, CSV fi
 This Power BI project provides a comprehensive analysis of the most streamed songs on Spotify in 2023, integrating data visualizations, data cleaning, and dynamic DAX measures. The inclusion of album art URLs adds an aesthetic dimension to the project
 
 ## 🐍 **Python Script: Adding Album Art URLs**
-The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`," to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the [Spotipy library](https://github.com/spotipy-dev/spotipy),a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
+The Python script [Album_Art_Python.py](Album_Art_Python.py) demonstrates the addition of a new column, `album_art_url`, to the dataset [updated-Art-spotify-2023.csv](updated-Art-spotify-2023.csv). Leveraging the **[Spotipy library](https://github.com/spotipy-dev/spotipy)**,a lightweight Python library for the Spotify Web API. it searches for album art URLs based on track and artist information. 
 > This step contributes to enhancing the dataset with visual elements for potential user interface improvements.
 
 ### Key points include 🗝️
